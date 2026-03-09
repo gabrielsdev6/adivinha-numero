@@ -25,7 +25,7 @@ while True:
     op = input("Deseja jogar novamente? (s/n): ")
     if op.lower() == "s":
         num_secreto = random.randint(1, 100)
-        tentativas = 3
+        tentativas = 5
     else:
         print("Obrigado por jogar!")
         break
